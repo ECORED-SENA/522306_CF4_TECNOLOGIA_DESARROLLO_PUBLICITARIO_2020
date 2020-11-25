@@ -1,0 +1,168 @@
+//Colores base del material de formación
+$brand-color-1: rgb(19, 99, 178);
+$brand-color-2:  rgb(55, 41, 120);
+$brand-color-3: #CFEBF4;
+$brand-color-4: $yellow;
+$brand-color-5: #CD4022;
+$brand-color-5: #CD4022;
+
+$brand-color-dark: $brand-color-1;
+$text-color-dark: #fff;
+$brand-color-light:#2095AF;
+$text-color-light: #fff;
+$brand-color-secondary: $brand-color-3;
+$brand-color-optional: #ededed;
+
+$base-color-highlight: $yellow;
+
+.bg-color-azul-2 {
+    background-color: #4A57AB !important;
+}
+
+.bg-color-2-rgba70 {
+    background-color: rgba(19,20,38,.7);
+}
+
+.bg-color-piel {
+    background-color: #FFFCF5 !important;
+}
+
+.bg-color-yellow {
+    background-color: rgba(253, 241, 164,.2);
+
+    ul li {
+        font-size: .9em;
+    }
+}
+
+.border-color-1 {
+    border: 2px solid $brand-color-1;
+    border-radius: 10px;
+}
+.border-color-2 {
+    border: 2px solid $brand-color-2;
+    border-radius: 10px;
+}
+
+.bg-color-gris {
+    background-color: $gray-100;
+}
+.bg-color-gris-200 {
+    background-color: $gray-200;
+}
+.bg-color-gris-300 {
+    background-color: $gray-300;
+}
+
+h1 {
+    color:  rgb(19, 99, 178);
+}
+
+h2 {
+    color: #1363B2;
+}
+
+h3 {
+    color:  $yellow;
+}
+h4 {
+    color:   #E65C66;
+    font-size: 1rem !important;
+}
+
+#page-home {
+
+    h2 {
+        color: $brand-color-1;
+    }
+    h3,h4 {
+        color:   $orange;
+        font-weight: 500;
+    }
+
+}
+
+.text-color-1 {
+    color: $brand-color-1;
+}
+
+.text-color-2 {
+    color: $brand-color-2;
+}
+
+.text-color-3 {
+    color:$brand-color-3 !important;
+}
+
+.text-color-4 {
+    color:$brand-color-4 !important;
+}
+
+.text-color-secondary {
+    color: $brand-color-4;
+}
+
+.bg-color-1 {
+    background-color: $brand-color-1 !important;
+}
+.bg-color-2 {
+    background-color: $brand-color-2 !important;
+}
+.bg-color-3 {
+    background-color: $brand-color-3 !important;
+    color: $primary;
+}
+.bg-color-4 {
+    background-color: $brand-color-4 !important;
+    color:$primary !important;
+}
+.bg-color-5 {
+    background-color: $brand-color-5 !important;
+}
+
+.border-color-1 {
+    border-color: #A49579 !important;
+}
+
+.bg-color-amarillo-2 {
+    background-color: #FDF1A4 !important;
+}
+
+.bg-brand-color-secondary-rgba {
+    background: rgba(234, 230, 153, 0.70) !important;
+}
+
+.card-header.bg-color-1 {
+    background-color: $brand-color-1;
+    color: #ffffff;
+}
+
+.card-header.bg-color-2 {
+    background-color: $brand-color-light;
+    color: #ffffff;
+}
+
+.card-header.bg-color-3 {
+    background-color: $brand-color-3;
+}
+
+.card-header.bg-color-4 {
+    background-color: $brand-color-4;
+    color: #ffffff;
+}
+
+#collapsableRuta1  {
+    .btn-link:after {
+        background-color: #415214;
+        width: 25px;
+        font-size: 15px;        
+    }
+}
+
+#collapsableRuta2 {
+    .btn-link:after {
+        background-color:$brand-color-1;
+        width: 25px;
+        font-size: 15px;        
+    }
+}
