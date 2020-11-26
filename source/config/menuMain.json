@@ -12,15 +12,15 @@
     "path": "pages/tema-1.html",
     "submenu": [
       {
-        "icon": "fa fa-play-circle",
+        "icon": "fa fa-file-text-o",
         "slug": "tema-1",
-        "title": "Estructura de la campaña publicitaria",
+        "title": "1.1 Estructura de la campaña publicitaria",
         "anchor": "tema-11"
       },
       {
-        "icon": "fa fa-play-circle",
+        "icon": "fa fa-file-text-o",
         "slug": "tema-1",
-        "title": "Modelos de campaña",
+        "title": "1.2 Modelos de campaña",
         "anchor": "tema-12"
       }
     ]    

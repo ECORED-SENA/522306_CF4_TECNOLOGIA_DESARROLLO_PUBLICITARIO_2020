@@ -13,6 +13,17 @@
     margin-right: 2rem;
 }
 
+.border-left {
+    border-left: 1px solid $primary !important;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-color-morado {
+    background-color: rgba(217, 124, 221,.7) !important;
+}
 
 .bg-color-azul {
     background-color: rgba(2,136,209,.3);

@@ -264,6 +264,7 @@ gulp.task('crearZip', () => {
   return gulp
     .src([
       `./${pub}/**/*.*`,
+      `!${pub}/config/**/*.*`,
       `!${pub}/pages/**/*.*`,
       `!${pub}/index.html`,
       `!${pub}/main.html`,
@@ -319,6 +320,7 @@ gulp.task('crearZipRuta', () => {
       `!${pub}/media/**/*.*`,
       `!${pub}/config/**/*.*`,
       `!${pub}/assets/images/pages/*.*`,
+      `!${pub}/assets/images/icons/*.*`,
       `!${pub}/assets/images/info/*.*`,
       `!${pub}/material.html`,
       `!${pub}/info.html`,
@@ -360,6 +362,7 @@ gulp.task("crearZipInfo", () => {
       `!${pub}/media/**/*.*`,
       `!${pub}/config/**/*.*`,
       `!${pub}/assets/images/pages/*.*`,
+      `!${pub}/assets/images/icons/*.*`,
       `!${pub}/assets/images/ruta/*.*`,
       `!${pub}/material.html`,
       `!${pub}/ruta.html`,
