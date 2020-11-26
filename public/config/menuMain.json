@@ -1,0 +1,28 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  {
+    "icon": "fa fa-play-circle",
+    "slug": "tema-1",
+    "title": "1. ¿Qué es una campaña publicitaria?",
+    "path": "pages/tema-1.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "tema-1",
+        "title": "1.1 Estructura de la campaña publicitaria",
+        "anchor": "tema-11"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "tema-1",
+        "title": "1.2 Modelos de campaña",
+        "anchor": "tema-12"
+      }
+    ]    
+  }
+]
